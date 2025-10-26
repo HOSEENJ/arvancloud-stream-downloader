@@ -149,7 +149,7 @@ $ python arvan_dl.py
 
 **Python import errors**
 - Install missing dependencies: `pip install requests`
-- Use the correct Python version (3.6+)
+- Use the correct Python version (3.11+)
 
 **Video download fails**
 - The stream might be protected or temporarily unavailable
@@ -158,7 +158,7 @@ $ python arvan_dl.py
 ### Getting Help
 
 If you encounter issues not covered here:
-1. Check the [Issues](https://github.com/HOSEENJ/arvancloud-video-downloader/issues) page on GitHub
+1. Check the [Issues](https://github.com/HOSEENJ/arvancloud-stream-downloader/issues) page on GitHub
 2. Create a new issue with detailed information about your problem
 3. Include your operating system, Python version, and FFmpeg version
 
