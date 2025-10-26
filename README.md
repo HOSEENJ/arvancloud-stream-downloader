@@ -9,6 +9,7 @@ A powerful, open-source Python tool for downloading videos from ArvanCloud strea
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
+- [Finding the ArvanCloud Player URL](#finding-the-arvancloud-player-url)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
@@ -36,6 +37,19 @@ Before using this tool, ensure you have the following installed:
   - Windows: [Download FFmpeg](https://ffmpeg.org/download.html#build-windows)
   - macOS: Install via Homebrew: `brew install ffmpeg`
   - Linux: Install via package manager: `sudo apt install ffmpeg` (Ubuntu/Debian)
+
+## Finding the ArvanCloud Player URL
+
+To use this tool, you need the ArvanCloud player URL that contains the `config=` parameter.
+
+1. Open the video page in your web browser.
+2. Right-click on the video player and select **Inspect Element** (or press F12).
+3. In the developer tools, search for `config=` in the page source or network tab.
+4. Copy the full URL that includes `?config=https://...`
+
+![Finding the config link](find-link.png)
+
+This URL will be used as input for the downloader script.
 
 ## Installation
 
@@ -158,7 +172,7 @@ $ python arvan_dl.py
 ### Getting Help
 
 If you encounter issues not covered here:
-1. Check the [Issues](https://github.com/HOSEENJ/arvancloud-stream-downloader/issues) page on GitHub
+1. Check the [Issues](https://github.com/HOSEENJ/arvancloud-video-downloader/issues) page on GitHub
 2. Create a new issue with detailed information about your problem
 3. Include your operating system, Python version, and FFmpeg version
 
