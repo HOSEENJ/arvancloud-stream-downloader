@@ -172,7 +172,7 @@ $ python arvan_dl.py
 ### Getting Help
 
 If you encounter issues not covered here:
-1. Check the [Issues](https://github.com/HOSEENJ/arvancloud-video-downloader/issues) page on GitHub
+1. Check the [Issues](https://github.com/HOSEENJ/arvancloud-stream-downloader/issues) page on GitHub
 2. Create a new issue with detailed information about your problem
 3. Include your operating system, Python version, and FFmpeg version
 
